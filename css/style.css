@@ -1,0 +1,494 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header part css start*/
+
+header{
+	background-color: #0872b9;
+	padding-top: 15px;
+}
+.header_content{
+	color: white;
+	font-size: 14px;
+	font-family: opensans;
+}
+.header_icom ul{
+	text-align: right;
+}
+.header_icom ul li{
+	display: inline-flex;
+	padding: 0 10px;
+
+}
+.header_icom ul li a{
+	color: white;
+}
+.header_icom ul li a:hover{
+	color: black;
+}
+/*header part css end*/
+
+/*navbar css start*/
+
+.navbar-nav .nav-item .nav-link{
+	color: black;
+}
+.navbar-nav .nav-item .nav-link.active{
+	color:#0872b9;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color:#0872b9;
+}
+/*navbar css end*/
+
+/*banner part css start*/
+
+#banner{
+	background: url(../images/picture.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_overlay{
+	background: rgba(0,0,0,0.6);
+	padding: 88px 0;
+}
+.banner_content{
+	text-align: right;
+	color: white;
+}
+.banner_content h2{
+	font-family: oswald-regular;
+}
+.banner_content h1{
+	font-family: oswald-bold;
+	padding-bottom: 40px;
+	font-weight: 600;
+}
+.banner_content p{
+	font-family: open-sens;
+	padding-bottom: 40px;
+
+}
+.banner_content a{
+	border: 1px solid white;
+	color: white;
+	padding: 10px 20px;
+	margin-left: 30px;
+	font-size: 18px;
+	transition: all linear .3s;
+}
+.banner_content a:hover{
+	background-color:#0872b9;
+	border: 1px solid #0872b9;
+	transition: all linear .3s;
+
+}
+/*banner part css end*/
+
+/*about part css start*/
+
+
+
+.about_heading h4{
+	font-family:oswald-bold;
+	font-weight:bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	position: relative;
+	margin: 60px 0 40px;
+	text-align: center;
+}
+.about_heading h4::after{
+	position: absolute;
+	bottom: -3px;
+	left: 44.5%;
+	content: "";
+	height: 3px;
+	width: 48px;
+	background-color:#0872b9 ;
+}
+.about_heading h4::before{
+	position: absolute;
+	bottom: -3px;
+	left: 49.3%;
+	content: "";
+	height: 3px;
+	width: 9px;
+	background-color:#0872b9 ;
+}
+.about_heading h4 span::after {
+	position: absolute;
+	bottom: -3px;
+	left: 50.5%;
+	content: "";
+	height: 3px;
+	width: 5px;
+	background-color:#0872b9 ;
+}
+.about_heading h4 span::before{
+	position: absolute;
+	bottom: -3px;
+	left: 51.3%;
+	content: "";
+	height: 3px;
+	width: 3px;
+	background-color:#0872b9 ;
+}
+.about_content p{
+	margin-top: 40px;
+	line-height: 29px;
+	font-size: 14px;
+	/*font-family: open sans;*/
+	font-weight: 500px;
+	text-align: justify;
+}
+
+/*about part css end*/
+
+/*service part css start*/
+
+
+.service_part{
+	position: relative;
+	margin-top: 40px;
+	transition: all linear .3s;
+	
+}
+
+.ser_main{
+	height:80px;
+	width:80px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -18%;
+	left: 40%;
+	transition: all linear .3s;
+}
+.ser_icon{
+	height:70px;
+	width:70px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all linear .3s;
+}
+.ser_content{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 50px 16px 5px;
+	transition: all linear .3s;
+
+}
+.ser_content:hover{
+	box-shadow: 1px 1px 7px black;
+	transition: all linear .3s;
+}
+.ser_content h4{
+	font-family: oswald-bold;
+	font-weight:bold;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.ser_content p{
+	font-family: open-sans;
+	line-height: 29px;
+	color: #555555;
+}
+.service_part:hover .ser_icon,
+.service_part:hover .ser_main{
+	background-color:#5bc5f4 ;
+	transition: all linear .3s;
+
+}
+.service h4::after{
+	left: 42.8%;
+}
+.service h4::before{
+	left: 47.5%;
+}
+.service h4 span::after{
+	left: 48.8%;
+}
+.service h4 span::before{
+	left: 49.8%;
+}
+/*service part css end*/
+
+/*portfolio part css start*/
+
+.small_image{
+	margin-bottom: 20px;
+	position: relative;
+}
+.port_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+	transition: all linear.3s;
+	
+}
+.port_overlay a{
+     height: 40px;
+     width: 40px;
+     line-height: 40px;
+     background-color:#5bc5f4;
+     text-align: center;
+     color: white;
+     border-radius: 50%;
+}
+.small_image:hover .port_overlay{
+	transform: scale(1);
+	transition: all linear.3s;
+}
+.big_image{
+	position: relative;
+}
+.big_image:hover .port_overlay{
+	transform: scale(1);
+	transition: all linear.3s;
+}
+.portfolio h4::after{
+   left: 41.2%;
+}
+.portfolio h4::before{
+   left: 46%;
+}
+.portfolio h4 span::after{
+   left: 47.3%;
+}
+.portfolio h4 span::before{
+   left: 48.2%;
+}
+/*portfolio part css end*/
+
+/*team part css start*/
+.team_image{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.team_overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 38%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transform:scalex(0);
+    transition: all linear.3s;
+}
+.team_overlay ul{
+	padding: 0;
+}
+.team_overlay ul li a{
+	 height: 40px;
+     width: 40px;
+     line-height: 40px;
+     border: 1px solid white;
+     text-align: center;
+     color: white;
+     border-radius: 50%;
+     display: inline-block;
+     margin-bottom: 20px;
+     transition: all linear.3s;
+}
+.team_overlay ul li a:hover{
+	background-color:#5bc5f4;
+	border: 1px solid #5bc5f4;
+	transition: all linear.3s;
+}
+.team_image:hover .team_overlay{
+     transform:scalex(1);
+     transition: all linear.3s;
+}
+.team_content{
+	text-align: center;
+}
+.team_content h4{
+	font-family:'oswald', sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.team_content p{
+	font-family:'oswald', sans-serif;
+	font-weight:400px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #555555;
+}
+.team_main:hover .team_content h4{
+	color:#5bc5f4;
+}
+
+/*team part css end*/
+
+/*testimonial part css start*/
+
+.testi_image{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.testi_content{
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 20px 10px 5px;
+	position: relative;
+}
+.testi_content ul{
+	padding: 0;
+}
+.testi_content ul li{
+	display:inline-flex;
+	padding: 0;
+}
+.testi_content ul li a{
+	color:#5bc5f4;
+}
+.testi_content h4{
+	font-family:'oswald', sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+.testi_content h6{
+	font-family:'oswald', sans-serif;
+	font-size: 14px;
+	color: #555555;
+}
+.testi_content p{
+	font-family:'oswald', sans-serif;
+	font-size: 14px;
+	color: #555555;
+	padding: 0;
+}
+.piramid{
+	height:40px;
+	width:40px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: -8%;
+	left: 45%;
+	transform: rotate(45deg);
+	z-index:-1;
+}
+.testimonial h4::after{
+	 left: 42.6%;
+}
+.testimonial h4::before{
+	 left: 47.5%;
+}
+.testimonial h4 span::after{
+	 left: 48.8%;
+}
+.testimonial h4 span::before{
+	 left: 49.6%;
+}
+/*testimonial part css end*/
+
+/*footer part css start*/
+
+#footer{
+	background-color: #353535;
+	margin-top: 60px;
+	padding: 20px 0;
+}
+.footer_logo{
+	color: white;
+}
+.footer_content{
+	color: white;
+}
+.footer_content p{
+	font-size: 16px;
+	font-family: open-sans;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.footer_common_heading h4{
+	font-family:'oswald', sans-serif;
+	font-weight:bold;
+	font-size: 16px;
+	color: white;
+	margin: 20px 0 30px;
+}
+
+.footer_icon a{
+	 height: 40px;
+     width: 40px;
+     line-height: 40px;
+     background-color: #5bc5f4;
+     text-align: center;
+     color: white;
+     border-radius: 50%;
+     display: inline-block;
+     margin-top: 10px;
+}
+.contact_email p{
+	color: white;
+	line-height: 18px;
+}
+.f_content ul{
+	padding: 0;
+}
+.f_content ul li a{
+	color: white;
+	font-family:'oswald', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+    transition: all linear.3s;
+}
+.f_content ul li a:hover{
+	color: #5bc5f4;
+	transition: all linear.3s;
+}
+.flicker_image{
+	margin-bottom: 15px;
+}
+
+
+/*footer part css end*/
+
+/*copyright part css start*/
+
+.copyright p{
+	text-align: center;
+	padding: 10px 0;
+	background-color:#555555;
+	color: white;
+	font-family:'oswald', sans-serif; ;
+	font-size:13px ;
+}
+.copyright span{
+	color: #5ab9e3;
+}
+/*copyright part css  end*/
+

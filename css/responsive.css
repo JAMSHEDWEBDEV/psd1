@@ -1,0 +1,567 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+.header_content p{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.header_icom ul li{
+	padding: 0 3px;
+}
+
+/*navigation part responsive start*/
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+	background-color: green;
+	border-bottom: 1px solid white;
+	color: white;
+}
+.navbar-nav{
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: greenyellow;
+	color: black;
+}
+/*navigation part responsive end*/
+
+/*banner part responsive start*/
+
+
+
+.banner_content{
+	text-align: center;
+
+}
+.banner_content p{
+	text-align: justify;
+}
+.hide{
+	display: none;
+}
+/*banner part responsive end*/
+
+/*about part responsive start*/
+
+.about_heading h4::after {
+	left: 29.5%;
+	
+}
+
+.about_heading h4::before {
+	
+	left: 46.6%;
+}
+.about_heading h4 span::after {
+	
+	left: 50.8%;	
+}
+.about_heading h4 span::before {
+	
+	left: 53.5%;
+}
+/*about part responsive end*/
+
+
+}
+
+/*service part responsive start*/
+
+.service h4::after{
+   left: 23%;
+}
+.service h4::before{
+   left:40.5%;
+}
+.service h4 span::after{
+   left: 45%;
+}
+.service h4 span::before{
+   left: 47.5%;
+}
+
+.ser_content{
+	margin-bottom: 30px;
+}
+/*service part responsive end*/
+
+/*portfolio part responsive code start*/
+ .portfolio h4::after{
+ 	left: 17%;
+ }
+ .portfolio h4::before{
+ 	left: 34.3%;
+ }
+ .portfolio h4 span::after{
+ 	left: 38.8%;
+ }
+ .portfolio h4 span::before{
+ 	left: 41.5%;
+ }
+
+/*portfolio part responsive code end*/
+
+/*testimonial part responsive code start*/
+
+.testimonial h4::after{
+  left: 22.2%;
+}
+.testimonial h4::before{
+	left: 40%;
+}
+.testimonial h4 span::after{
+	left: 44.3%;
+}
+.testimonial h4 span::before{
+	left: 47.2%;
+}
+.piramid {
+	left: 43%;
+}
+/*testimonial part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_logo{
+	text-align: center;
+}
+.footer_content{
+	text-align: center;
+}
+.footer_text_hide{
+	display: none;
+}
+.footer_common_heading{
+	text-align: center;
+}
+.footer_icon{
+	margin-left: 20px;
+}
+.contact_email{
+	margin-right: 10px;
+}
+
+.f_content{
+	margin-left: 40px;
+}
+/*footer part responsive code end*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+.header_content p{
+	font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+	background-color:indigo;
+	border-bottom: 1px solid white;
+	color: white;
+}
+.navbar-nav{
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+   background-color: tomato;
+   color: black;
+}
+.banner_content p{
+	text-align: justify;
+}
+
+
+/* sm about part responsive code start*/
+
+.about_heading h4::after {
+	left: 38%;
+}
+
+.about_heading h4::before {
+	
+	left: 48.3%;
+}
+.about_heading h4 span::after {
+	
+	left: 50.8%;	
+}
+.about_heading h4 span::before {
+	
+	left: 52.5%;
+}
+
+
+/* sm about part responsive code end*/
+
+/*sm service part responsive code start*/
+
+.service h4::after{
+   left: 34.6%;
+}
+.service h4::before{
+   left:44.8%;
+}
+.service h4 span::after{
+   left: 47%;
+}
+.service h4 span::before{
+   left: 48.9%;
+}
+
+.ser_content{
+	margin-bottom: 30px;
+}
+
+/*sm service part responsive code end*/
+
+/*sm portfolio responsive code start*/
+
+.portfolio h4::after{
+ 	left: 31%;
+ }
+ .portfolio h4::before{
+ 	left: 41%;
+ }
+ .portfolio h4 span::after{
+ 	left: 43.5%;
+ }
+ .portfolio h4 span::before{
+ 	left: 45%;
+ }
+
+/*sm portfolio responsive code end*/
+
+/*sm testimonial responsive part code start*/
+
+.testimonial h4::after{
+  left: 34%;
+}
+.testimonial h4::before{
+	left: 44%;
+}
+.testimonial h4 span::after{
+	left: 46.4%;
+}
+.testimonial h4 span::before{
+	left: 48%;
+}
+.piramid {
+	left: 46%;
+}
+
+/*sm testimonial responsive part code end*/
+
+/*sm footer part responsive code start*/
+
+.footer_icon{
+	margin-left: 100px;
+}
+.f_content{
+	margin-left: 90px;
+}
+
+/*sm footer part responsive code end*/
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+	background-color:pink;
+	border-bottom: 1px solid white;
+	color:indigo;
+}
+.navbar-nav{
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color:lightcoral;
+	color: black;
+}
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_content h1{
+	font-size: 31px;
+}
+.banner_content p{
+	line-height: 27px;
+	text-align: justify;
+}
+/*banner part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_heading h4::after{
+	left: 41%;
+}
+.about_heading h4::before{
+	left: 48.4%;
+}
+.about_heading h4 span::after{
+	left: 50.2%;
+}
+
+.about_hide{
+	display:none;
+}
+
+/*about part responsive code end*/
+
+/*service part responsive code start*/
+
+.md_service h4::after{
+	left: 38.5%;
+}
+.md_service h4::before{
+	left: 46%;
+}
+.md_service h4 span::after{
+	left: 47.7%;
+}
+.md_service h4 span::before{
+	left: 49%;
+}
+.ser_main{
+	left: 34%;
+}
+
+/*service part responsive code end*/
+
+/*portfolio part responsive code start*/
+
+.md_portfolio h4::after{
+	left:36%;
+}
+.md_portfolio h4::before{
+	left:43.5%;
+}
+.md_portfolio h4 span::after{
+	left:45.3%;
+}
+.md_portfolio h4  span::before{
+	left:46.5%;
+}
+
+/*portfolio part responsive code end*/
+
+/*testimonial part responsive code start*/
+
+.md_testimonial h4::after{
+	left:38%;
+}
+.md_testimonial h4::before{
+	left:45.4%;
+}
+
+.md_testimonial h4 span::after{
+	left:47.3%;
+}
+
+.md_testimonial h4 span::before{
+	left:48.5%;
+}
+
+
+/*testimonial part responsive code end*/
+
+/*footer part responsive code start*/
+
+.contact_email p{
+	font-size: 12px;
+	margin-left: 1px;
+}
+.footer_icon{
+	margin-left: 1px;
+}
+.f_content ul li a {
+	
+	font-size: 12px;
+	line-height: 24px;
+}
+.f_content {
+	margin-left: 21px;
+}
+/*footer part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.header_icom ul li{
+	padding: 0 20px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 0 10px;
+}
+
+/*lg about part responsive code start*/
+
+.about_heading h4::after {
+	left: 43.5%;
+}
+
+.about_heading h4::before {
+	
+	left: 49%;
+}
+.about_heading h4 span::after {
+	
+	left: 50.4%;	
+}
+.about_heading h4 span::before {
+	
+	left: 51.4%;
+}
+.about_content p{
+	margin-top: 0;
+}
+
+/*lg about part responsive code end*/
+
+/*lg service responsive code start*/
+
+ .service h4::after{
+   left: 41.5%;
+}
+.service h4::before{
+   left:47%;
+}
+.service h4 span::after{
+   left: 48.3%;
+}
+.service h4 span::before{
+   left: 49.3%;
+}
+
+/*lg service responsive code end*/
+
+/*lg portfolio responsive code start*/
+
+.portfolio h4::after{
+ 	left: 39.3%;
+ }
+ .portfolio h4::before{
+ 	left: 45%;
+ }
+ .portfolio h4 span::after{
+ 	left: 46.4%;
+ }
+ .portfolio h4 span::before{
+ 	left: 47.3%;
+ }
+
+/*lg portfolio responsive code end*/
+
+/*lg testimonial responsive code start*/
+
+.testimonial h4::after{
+  left: 41%;
+}
+.testimonial h4::before{
+  left: 46.6%;
+}
+.testimonial h4 span::after{
+  left: 48%;
+}
+.testimonial h4 span::before{
+  left: 49%;
+}
+.piramid {
+	left: 46%;
+}
+
+/*lg testimonial responsive code end*/
+
+/*lg footer part responsive code start*/
+
+.footer_content{
+	text-align: justify;
+}
+.footer_content p{
+	line-height: 30px;
+}
+.footer_text_hide{
+	display: inline-block;
+}
+.footer_icon{
+	margin: 0;
+}
+
+/*lg footer part responsive code end*/
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+.xl_service h4::after{
+	left: 42.7%;
+}
+.xl_service h4::before{
+	left: 47.5%;
+}
+.xl_service h4 span::after{
+	left: 48.7%;
+}
+.xl_service h4 span::before{
+	left: 49.4%;
+}
+
+.xl_portfolio h4::after{
+	left: 41%;
+}
+.xl_portfolio h4::before{
+	left: 45.8%;
+}
+.xl_portfolio h4 span::after{
+	left: 46.9%;
+}
+.xl_portfolio h4 span::before{
+	left: 47.6%;
+}
+
+.xl_testimonial h4::after{
+	left: 42.6%;
+}
+.xl_testimonial h4::before{
+	left: 47.3%;
+}
+.xl_testimonial h4 span::after{
+	left: 48.5%;
+}
+.xl_testimonial h4 span::before{
+	left: 49.3%;
+}
+
+.xl_test{
+	left:46%;
+}
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}
